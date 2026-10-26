@@ -1,38 +1,24 @@
-\---
+The `pow()` function in Python returns a number raised to a specified power.
 
-Title: 'pow()'
-
-Description: 'Returns the value of x raised to the power of y.'
-
-Subjects:
-
-&#x20; - 'Computer Science'
-
-&#x20; - 'Data Science'
-
-Tags:
-
-&#x20; - 'Functions'
-
-&#x20; - 'Math'
-
-CatalogContent:
-
-&#x20; - 'learn-python-3'
-
-\---
-
-
-
-The `pow()` function in Python returns the result of raising a base number to a given exponent power.
-
-
-
-\## Syntax
-
-
+## Syntax
 
 ```py
-
 pow(base, exp, mod)
+```
 
+- `base`: The number to raise to a power.
+- `exp`: The exponent.
+- `mod`: An optional modulus value.
+
+## Example
+
+```py
+result = pow(2, 3)
+print(result)
+```
+
+Output:
+
+```text
+8
+```
